@@ -1,0 +1,6 @@
+vhdl work "RAM.vhd"
+vhdl work "Debouncer.vhd"
+vhdl work "Datapath.vhd"
+vhdl work "Control.vhd"
+vhdl work "Fibonacci.vhd"
+vhdl work "Fibonacci_tb.vhd"

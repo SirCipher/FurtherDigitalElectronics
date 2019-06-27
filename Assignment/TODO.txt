@@ -1,0 +1,29 @@
+PROJECT TODO LIST
+format: -> TASK_NAME [PERSON_DOING_THE_TASK] (status)	//comment
+		-> sub_task_name
+		-- compleated_subtask
+
+-> write the adress generation logic component [JONATHAN] (working on it)
+	-> create component 
+		-> Get RAM_C address generation working
+	-> make component parameterizable
+	-> test component
+		-> make testbench
+		-> devise tests
+		-> make testbench self checking
+
+-> RAM_tb
+	-> Add more tests to the test_vector [TOM]
+
+-> Control Logic
+	-> 
+
+-> report writeup
+	-> Answers to the questions contained in the script
+		-> Question 1
+		-> question 2
+		-> question 3
+		-> question 4
+		-> question 5
+	-> values of input matricies
+	->...

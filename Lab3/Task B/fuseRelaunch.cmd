@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci_tb_isim_beh.exe" -prj "M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci_tb_beh.prj" "work.Fibonacci_tb" 

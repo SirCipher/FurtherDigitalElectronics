@@ -1,0 +1,235 @@
+ISim log file
+Running: M:\Year 2\Further Digital\Lab3\TaskB\Fibonacci_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci_tb_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 5 ns(2), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 25 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 35 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 35 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 45 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 45 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 55 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 55 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 65 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 65 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 75 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 75 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 85 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 85 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 95 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 95 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 105 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 105 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 115 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 115 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 125 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 125 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 135 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 135 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 145 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 145 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 155 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 155 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 165 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 165 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 175 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 185 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 185 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 195 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 195 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 205 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 205 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 215 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 215 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 225 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 225 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 235 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 235 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 245 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 245 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 255 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 5 ns(2), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 25 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 35 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 35 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 45 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 45 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 55 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 55 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 65 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 65 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 75 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 75 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 85 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 85 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 95 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 95 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 105 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 105 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 115 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 115 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 125 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 125 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 135 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 135 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 145 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 145 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 155 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 155 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 165 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 165 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 175 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 185 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 185 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 195 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 195 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 205 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 205 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 215 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 215 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 225 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 225 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 235 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 235 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 245 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 245 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 255 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 5 ns(2), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 25 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 35 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 35 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 45 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 45 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 55 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 55 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 65 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 65 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 75 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 75 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 85 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 85 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 95 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 95 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 105 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 105 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 115 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 115 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 125 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 125 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 135 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 135 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 145 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 145 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 155 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 155 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 165 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 165 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 175 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 185 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 185 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 195 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 195 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 205 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 205 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 215 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 215 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 225 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 225 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 235 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 235 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 245 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 245 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 255 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 5 ns(2), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 15 ns(1), Instance /fibonacci_tb/uut/Inst_Control/ : Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+at 25 ns(1), Instance /fibonacci_tb/uut/Inst_Datapath/Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us

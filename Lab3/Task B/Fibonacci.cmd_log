@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci.xst" -ofn "M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci.syr" 
+xst -intstyle ise -ifn "M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci.xst" -ofn "M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci.syr" 

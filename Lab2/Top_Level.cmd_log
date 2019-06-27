@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "H:/Downloads/1/Lab2Final/Top_Level.xst" -ofn "H:/Downloads/1/Lab2Final/Top_Level.syr" 
+xst -intstyle ise -ifn "H:/Downloads/1/Lab2Final/Top_Level.xst" -ofn "H:/Downloads/1/Lab2Final/Top_Level.syr" 

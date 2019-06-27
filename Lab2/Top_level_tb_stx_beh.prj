@@ -1,0 +1,5 @@
+vhdl isim_temp "Decoder.vhd"
+vhdl isim_temp "Debouncer.vhd"
+vhdl isim_temp "Counter.vhd"
+vhdl isim_temp "Top_Level.vhd"
+vhdl isim_temp "Top_level_tb.vhd"

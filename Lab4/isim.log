@@ -1,0 +1,17 @@
+ISim log file
+Running: M:\Year 2\Further Digital\lab4a\m_by_n_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb M:/Year 2/Further Digital/lab4a/m_by_n_tb_isim_beh.wdb 
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 60 ns: Error: Test inputs 4
+ISim P.28xd (signature 0xa0883be4)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 60 ns: Error: Assertion violation

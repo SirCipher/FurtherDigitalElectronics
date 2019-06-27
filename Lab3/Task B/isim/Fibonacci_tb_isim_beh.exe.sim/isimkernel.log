@@ -1,0 +1,28 @@
+Command line:
+   Fibonacci_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55597
+
+Mon Jan 25 15:04:22 2016
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 825.324 Meg
+
+ Total Signals          : 62
+ Total Nets             : 624
+ Total Signal Drivers   : 29
+ Total Blocks           : 11
+ Total Primitive Blocks : 8
+ Total Processes        : 24
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 1126
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 668.037 Meg
+
+Mon Jan 25 15:11:34 2016
+

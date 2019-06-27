@@ -1,0 +1,5 @@
+vhdl work "Decoder.vhd"
+vhdl work "Debouncer.vhd"
+vhdl work "Counter.vhd"
+vhdl work "Top_Level.vhd"
+vhdl work "Top_level_tb.vhd"

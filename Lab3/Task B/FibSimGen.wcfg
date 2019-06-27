@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="M:/Year 2/Further Digital/Lab3/TaskB/Fibonacci_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fibonacci_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/fibonacci_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fibonacci_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fibonacci_tb/nxt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nxt</obj_property>
+      <obj_property name="ObjectShortName">nxt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fibonacci_tb/fib_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fib_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fib_out[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">fsm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/mem_wr" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_wr</obj_property>
+         <obj_property name="ObjectShortName">mem_wr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/r1_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">r1_en</obj_property>
+         <obj_property name="ObjectShortName">r1_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/r2_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">r2_en</obj_property>
+         <obj_property name="ObjectShortName">r2_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/out_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">out_en</obj_property>
+         <obj_property name="ObjectShortName">out_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="group50" type="group">
+         <obj_property name="label">Inst_Control</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/mem_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_addr[4:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_addr[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/mux_sel" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mux_sel[1:0]</obj_property>
+            <obj_property name="ObjectShortName">mux_sel[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/count" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">count[4:0]</obj_property>
+            <obj_property name="ObjectShortName">count[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/nxt" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">nxt</obj_property>
+            <obj_property name="ObjectShortName">nxt</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/cnt_en" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">cnt_en</obj_property>
+            <obj_property name="ObjectShortName">cnt_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/done" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">done</obj_property>
+            <obj_property name="ObjectShortName">done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/state" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">state</obj_property>
+            <obj_property name="ObjectShortName">state</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Control/next_state" type="other" db_ref_id="1">
+            <obj_property name="ElementShortName">next_state</obj_property>
+            <obj_property name="ObjectShortName">next_state</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group35" type="group">
+         <obj_property name="label">Inst_Datapath</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/mem_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_addr[4:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_addr[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/mux_sel" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mux_sel[1:0]</obj_property>
+            <obj_property name="ObjectShortName">mux_sel[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/r1_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">r1_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">r1_out[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/r2_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">r2_out[15:0]</obj_property>
+            <obj_property name="ObjectShortName">r2_out[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/fibonacci_tb/uut/Inst_Datapath/mem_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">mem_in[15:0]</obj_property>
+            <obj_property name="ObjectShortName">mem_in[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

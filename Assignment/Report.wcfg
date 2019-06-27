@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/PC/Documents/GitHub/Further-Digital-Electronics-Final-Project/Matrix_Multiplier_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="digeng" />
+            <top_module name="matrix_multiplier_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="group50" type="group">
+      <obj_property name="label">INPUTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/matrix_multiplier_tb/clk" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/nxt" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">nxt</obj_property>
+         <obj_property name="ObjectShortName">nxt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/rst" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/deb_next" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">deb_next</obj_property>
+         <obj_property name="ObjectShortName">deb_next</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/deb_reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">deb_reset</obj_property>
+         <obj_property name="ObjectShortName">deb_reset</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/matrix_multiplier_tb/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[11:0]</obj_property>
+      <obj_property name="ObjectShortName">output[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">Addresses</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/rom_a_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rom_a_address[6:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_a_address[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/rom_b_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">rom_b_address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_b_address[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/ram_c_write_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_c_write_enable</obj_property>
+         <obj_property name="ObjectShortName">ram_c_write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/ram_c_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ram_c_address[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_c_address[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group29" type="group">
+      <obj_property name="label">Control_logic_counters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/m_counter_value_temp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">m_counter_value_temp[4:0]</obj_property>
+         <obj_property name="ObjectShortName">m_counter_value_temp[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/n_counter_value_temp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">n_counter_value_temp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">n_counter_value_temp[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/h_counter_value_temp" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">h_counter_value_temp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">h_counter_value_temp[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/m_terminal_count" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">m_terminal_count</obj_property>
+         <obj_property name="ObjectShortName">m_terminal_count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/n_terminal_count" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">n_terminal_count</obj_property>
+         <obj_property name="ObjectShortName">n_terminal_count</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/h_terminal_count" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">h_terminal_count</obj_property>
+         <obj_property name="ObjectShortName">h_terminal_count</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">fsm state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/fsm/state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/fsm/next_state" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group40" type="group">
+      <obj_property name="label">MACC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/macc_reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">macc_reset</obj_property>
+         <obj_property name="ObjectShortName">macc_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/Control_logic/macc_enable" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">macc_enable</obj_property>
+         <obj_property name="ObjectShortName">macc_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/DataPath/a_coefficient" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">a_coefficient[3:0]</obj_property>
+         <obj_property name="ObjectShortName">a_coefficient[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/DataPath/b_coefficient" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">b_coefficient[3:0]</obj_property>
+         <obj_property name="ObjectShortName">b_coefficient[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/matrix_multiplier_tb/uut/DataPath/macc_output" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">macc_output[11:0]</obj_property>
+         <obj_property name="ObjectShortName">macc_output[11:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
